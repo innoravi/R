@@ -20,7 +20,8 @@
         var req = ocpu.rpc("test", {
           number : myname
         }, function(output){
-          $("#output").text(output.message);
+          console.log(output);
+          $("#output").text(output);
         });
         
         //if R returns an error, alert the error message

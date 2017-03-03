@@ -1,4 +1,4 @@
-export(hello)
+export(R)
 export(randomplot)
 export(readcsvnew)
 export(printsummary)
